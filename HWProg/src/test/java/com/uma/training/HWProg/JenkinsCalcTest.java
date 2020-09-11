@@ -15,7 +15,7 @@ public class JenkinsCalcTest {
 
 	public void subTest() {
 		JenkinsCalculator mycalc = new JenkinsCalculator();
-		assertEquals(5, mycalc.sub(10, 5));
+		assertEquals(15, mycalc.sub(20, 5));
 		System.out.println("subTest done");
 	}
 
